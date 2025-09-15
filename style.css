@@ -1,12 +1,13 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     border: none;
+    border-radius: 0;
     font-family:
         "FiraCode Nerd Font", "Symbols Nerd Font Mono";
     /*FontAwesome, Roboto, Helvetica, Arial, sans-serif;*/
     font-size: 12px;
     font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
-    min-height: 24px;
+    min-height: 0;
 }
 
 window#waybar {
@@ -48,14 +49,64 @@ window#waybar {
 }
 
 #mpd,
-#pulseaudio,
-#network,
-#cpu,
-#memory,
-#temperature,
-#backlight,
+#pulseaudio{
+    background-color: #11111b;
+    color: #cdd6f4;
+    margin-top: 5px;
+
+    margin-right: 5px;
+    padding: 2px;
+}
+
+
+#cpu{
+    background-color: #11111b;
+    color: #cdd6f4;
+    margin-top: 5px;
+
+    margin-right: 5px;
+    padding: 2px;
+}
+#memory{
+    background-color: #11111b;
+    color: #cdd6f4;
+
+    margin-top: 2px;
+
+    margin-right: 5px;
+    padding: 2px;
+}
+#temperature{
+    background-color: #11111b;
+    color: #cdd6f4;
+
+    margin-top: 2px;
+
+    margin-right: 5px;
+    padding: 2px;
+}
+
+#battery{
+    background-color: #11111b;
+    color: #cdd6f4;
+    margin-top: 5px;
+
+    margin-right: 5px;
+    padding: 2px;
+
+}
+
+#backlight{
+    background-color: #11111b;
+    color: #cdd6f4;
+    margin-top: 2px;
+
+    margin-right: 5px;
+    padding: 2px;
+}
 #keyboard-state,
-#battery,
+
+
 #clock {
     border-radius: 10px;
     background-color: #11111b;
@@ -68,6 +119,18 @@ window#waybar {
 }
 
 #power-profiles-daemon,
+
+#network{
+    border-radius: 10px;
+    background-color: #11111b;
+    color: #cdd6f4;
+    margin-top: 5px;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+
 #tray,
 #custom-power {
     border-radius: 10px;
