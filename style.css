@@ -2,8 +2,8 @@
     /* `otf-font-awesome` is required to be installed for icons */
     border: none;
     font-family:
-        /*"FiraCode Nerd Font ", "Font Awesome 6 Free", "Symbols Nerd Font Mono",*/
-        FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+        "Fira Code", "Symbols Nerd Font Mono";
+        /*FontAwesome, Roboto, Helvetica, Arial, sans-serif;*/
     font-size: 12px;
     font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
     min-height: 24px;
